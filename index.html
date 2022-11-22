@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ecdc7dc794.js" crossorigin="anonymous"></script>
+    <script src="scrip.js"> </script> 
+    
+
+</head>
+<body>
+<div id="header">
+    <div class="container"> 
+        <nav>
+            <h1>Saad Masood</h1>
+            <!-- Header image logo name  -->
+            <!-- <img src="" class="logo"> -->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <p>Software Engineering | Web Development | Student</p>
+        <h1>Hi, I'm <span style="color: red;">Saad Masood</span> <br>
+            Student at Year Up Wilmington</h1>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------about------------------------ -->
+<div id="about">
+    <div class="row">
+        <div class="about-column-1">
+            <img src="/images/Heropic.jpeg"
+            style="object-fit: fill;">
+        </div>
+        <div class="about-column-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>Currently a student at Wilmington University, studying the basics of JAVA, JAVAscript, mySQL, springboot,
+                backend, frontend, and web development. Growing up I never imagined myself coding. However, a week into my journey 
+                I developed a passion not for coding, but a passion for collaborating with others to
+                find different ways to solve the same problem.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+                <div class="tab-contents active-tab">
+                    <ul>
+                        <li><span>Basics of JAVA</span><br>Introduced to Backend & Frontend API</li>
+                        <li><span>Beginning Web App Development</span><br>Basics of SpringBoot</li>
+                        <li><span>MySQL</span><br>JAVAscript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>07/2014 - 08/2014</span><br>GEMS Program - ARL Engineering at Aberdeen Proving Grounds</li>
+                        <li><span>2017 - 2019</span><br>Pharmacy Technician at CVS Health</li>
+                        <li><span>2020 - 2022</span><br>Dental Laboratory Manager at Chris Dental Labs</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2016</span><br>Graduated High School at Patterson Mill High School</li>
+                        <li><span>Currently</span><br>Bachelors of Science, Computer Science at Wilmington University</li>
+                        <li><span>Currently</span><br>YearUp Program at Wilmington University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------Services------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Portfolio</h1>
+        <div class="services-list">
+            <div class="api">
+                <h2>Banking API</h2>
+                <p>My first group project in which I was assigned group leader.</p>
+                <a href="https://github.com/FiveStars-YU/BankingAPI.git" target="_blank" class="button">Banking API</a>
+            </div>
+            <div class="resume">
+                <h2>Resume</h2>
+                <p>Click to view my resume!</p>
+                <a href="docs/resume.pdf" target="_blank" class="button">Download</a>
+
+            </div>
+            <div class="work">
+                <h2>Previous Work</h2>
+                <p>Browse through over 50 repositories, showcasing some of my previous work on GitHub!</p>
+                <a href="https://github.com/Smasood1" target="_blank" class="button">GitHub</a>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- --------------------------Contact----------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Saadmasood219@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 443-377-0189</p>
+                <div class="socialicons">
+                    <a href="https://www.linkedin.com/in/saad-masood-7486641b9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Smasood1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button btn2">Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"> 
+        <p>Copyright © Saad. The Best Portfolio in AppDev</p>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
